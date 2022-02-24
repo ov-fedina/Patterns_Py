@@ -3,10 +3,10 @@ def welcome():
 Welcome to Calculator!
 ''')
 
-welcome() # Don’t forget to call the function
+welcome() # Calling a function
 
 
-# Define our function
+# Define a function
 def calculate():
     operation = input('''
 Please type in the math operation you would like to complete:
@@ -16,10 +16,7 @@ Please type in the math operation you would like to complete:
 / for division
 ** for power
 % for modulo
-''')
-# Don’t forget to add more conditional statements to solve for power and modulo
-
-
+''') # Don’t forget to add more conditional statements to solve for power and modulo
 
     number_1 = int(input('Please enter the first number: '))
     number_2 = int(input('Please enter the second number: '))
@@ -42,19 +39,15 @@ Please type in the math operation you would like to complete:
 
     else:
         print('You have not typed a valid operator, please run the program again.')
-
-    # Add again() function to calculate() function
-    again()
+    again()  # Add again() function to calculate() function
 
 
 
 def again():
-
-    # Take input from user
     calc_again = input('''
 Do you want to calculate again?
 Please type Y for YES or N for NO.
-''')
+''') # Take input from user
 
     # If user types Y, run the calculate() function
     if calc_again.upper() == 'Y':
@@ -67,6 +60,4 @@ Please type Y for YES or N for NO.
     # If user types another key, run the function again
     else:
         again()
-
-# Call calculate() outside of the function
-calculate()
+calculate() # Call calculate() outside of the function
