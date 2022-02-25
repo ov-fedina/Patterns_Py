@@ -1,5 +1,5 @@
 print ('Welcome to Calculator!') # Output "Welcome to Calculator"!
-q1 = int (input('Enter number 1: ')) # # Display the sum of two numbers entered by the user
+q1 = int (input('Enter number 1: ')) # # Display the sum of two numbers entered by the user.
 q2 = int (input('Enter number 2: '))
 
 v = int (input('What operation do you want to perform? \n 1 Addition \n 2 Subtraction \n 3 Division \n 4 Multiplication \n'))
