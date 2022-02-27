@@ -1,0 +1,8 @@
+Calculon - A desktop calculator in PyQt
+
+A simple calculator application implemented in Python using PyQt. The UI was designed in Qt Designer and the calculator operations are implemented using simple stack-based logic.
+
+![Screenshot](screenshot-calculator.jpg)
+
+Link to the repository: https://github.com/mfitzp/15-minute-apps
+
