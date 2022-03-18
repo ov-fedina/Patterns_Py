@@ -9,6 +9,9 @@ Folder сalculator_PyQt5 -
 1. File calc_PyQt5 contains a desktop calculator in PyQt.
 Link to the repository: https://github.com/mfitzp/15-minute-apps
 
+Folder сalendar -
+The calendar folder contains simple calendar files, as well as using the Tk and PyQt5 libraries.
+
 
 
 
